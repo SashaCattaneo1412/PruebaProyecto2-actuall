@@ -1,6 +1,41 @@
-.SignUp
-{
-   background-color: var(--celeste);
-   padding: 5rem 0;
-   margin-top: 5rem;
-}
+.contenedor {
+   display: grid;
+   place-content: center;
+   gap: 40px;
+ }
+ .title{
+ 
+   text-align: center;
+ }
+
+ .contenedorflotante input[type="INPUT"] {
+   width: 290px;
+   height: 44px;
+   margin-bottom: -1px;
+   border-bottom-right-radius: 0;
+   border-bottom-left-radius: 0;
+   color: var(--negro);
+   gap: 40px;
+   font-family: 'Lexend';
+   font-size: 15px;
+   font-weight: 500;
+   line-height: 28px;
+   letter-spacing: 0em;
+   text-align: left;
+   
+ }
+
+
+ .contenedorflotante input[type="password"] {
+   width: 290px;
+   height: 44pX;
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
+   gap: 21px;
+   font-family: 'Lexend';
+   font-size: 15px;
+   font-weight: 500;
+   line-height: 28px;
+   letter-spacing: 0em;
+   text-align: left;
+ }

@@ -2,7 +2,8 @@ import React from 'react'
 import Layout from '../components/Layout'
  import Link from 'next/link';
  import PhotoCarousel from '../components/PhotoCarousel.js';
- import style from '../styles/Registrarse.module.css'
+ import style from '../styles/SignUp.module.css';
+  import Button from 'components/CustomButtons/Button.js';
  const InicioSesion = () => {
    return (
     <div>
@@ -11,7 +12,7 @@ import Layout from '../components/Layout'
        
      <main className={style.contenedor}>
         <form>
-          <h1 className={style.title}>CREA TU CUENTA</h1>
+          <h1 className={style.title}>INICIA SESION</h1>
 
           <div className={style.contenedorflotante}>
             <input type="INPUT" className="form-control" id="floatingInput" placeholder="Mail" />
@@ -44,7 +45,7 @@ import Layout from '../components/Layout'
             <Link href="/Registrarse">  Crea cuenta nueva</Link>
           </div>
            
-          <button className="w-100 btn btn-lg btn-primary" type="submit">IR</button>
+          <Button color="primary" round>IR</Button>
 
 
 

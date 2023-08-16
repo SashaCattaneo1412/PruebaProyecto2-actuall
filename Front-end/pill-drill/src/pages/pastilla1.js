@@ -17,7 +17,7 @@ const Pastilla1 = () => {
             <Button text="Prender" onClick={() => turnOn()} /> <br />
             <h1>¿APAGAR EL LED?</h1>
             <Button text="Apagar" onClick={() => turnOff()} />
-            <input type="INPUT" className="grados" id="InputGrados" placeholder="grados" />
+            <input type="INPUT" className="grados" id="InputGrado" placeholder="grados" />
             <Button  text="OK" onClick={() => turnOff()} />
         </div>
     )
